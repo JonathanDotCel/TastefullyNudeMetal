@@ -1,4 +1,8 @@
-// MPL 2
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+// Except where otherwise stated.
 
 #include "tastefullynude.h"
 
@@ -75,9 +79,7 @@ static void DisableInterruptions(){
 void RunAppOnCore_Task( void * inFunction ){
 
     AppCoreFunction func = (AppCoreFunction)inFunction;
-
-    printf("the app core function is... %x\n", (uint32_t)&func );
-
+    
     DisableWatchdog();
     DisableInterruptions();
 

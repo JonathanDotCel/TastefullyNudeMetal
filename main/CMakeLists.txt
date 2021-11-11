@@ -5,6 +5,7 @@ set(COMPONENT_PRIV_REQUIRES )
 set(COMPONENT_SRCS 
                 "main.c"
                 "tastefullynude.c"
+                "softap.c"
 )
 set(COMPONENT_ADD_INCLUDEDIRS "")
 
