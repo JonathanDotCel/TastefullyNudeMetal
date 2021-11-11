@@ -8,6 +8,8 @@ E.g. Runs a task on core 1 that can take as long as it likes, but without FreeRT
 Alternative approach to the BlueRertro's:
 https://hackaday.io/project/170365-blueretro/log/189836-esp32-rtos-bare-metal-best-of-both-worlds
 
+I'm sure there are plenty of pitfalls to this approach, but it's lightweight, and decent enough for bit banging.
+
 Note:
 Remember to set LWIP's affinity to core0 via menuconfig, then WIFI will behave.
 
