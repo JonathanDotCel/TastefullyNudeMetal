@@ -35,3 +35,4 @@
 build/
 sdkconfig.old
 .vscode/settings.json
+.vscode
